@@ -1,0 +1,19 @@
+@import "src/sass/colors";
+.Header {
+  background: $color-bg;
+  box-shadow: 0 12px 12px #00000040;
+  z-index:2;
+  > div.wrapper {
+    justify-content: space-between;
+    align-items: center;
+    > nav > ul > li {
+      display: inline-block;
+      margin: 8px;
+    }
+    > h2 {
+        font-family: 'Abril Fatface', cursive;
+        margin: 8px 0;
+        color: $color-primary;
+    }
+  }
+}

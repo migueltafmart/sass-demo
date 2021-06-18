@@ -1,0 +1,51 @@
+@import "src/sass/colors";
+@import "src/sass/type";
+
+body{
+  margin: 0;
+  padding: 0;
+  background: $color-bg;
+  font-family: $font-family;
+  color: $color-text;
+}
+h1{
+  font-size: $h1-size;
+  line-height: $h1-size + $h1-size/5;
+  margin: 0;
+}
+h2{
+  font-size:$h2-size;
+  line-height: $h2-size + $h2-size/5;
+  margin: 0;
+}
+h3{
+  font-size:$h3-size;
+  line-height: $h3-size + $h3-size/5;
+  margin: 0;
+}
+h4{
+  font-size:$h4-size;
+  line-height: $h4-size + $h4-size/5;
+  margin: 0;
+}
+h5{
+  font-size:$h5-size;
+  line-height: $h5-size + $h5-size/5;
+  margin: 0;
+}
+p{
+  font-size: $p-size;
+  line-height: $p-size + $p-size/5;
+  margin: 0;
+  color: $color-text;
+  text-decoration: none;
+}
+a{
+  color: $color-text;
+  text-decoration: none;
+}
+div.wrapper{
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+}

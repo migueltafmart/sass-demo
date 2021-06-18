@@ -1,0 +1,10 @@
+.Hero {
+    background-size:cover;
+    background-position:center;
+    padding: 112px 0;
+  > div.wrapper {
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}
